@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portable Electric Dryer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #77aaff 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header ul li {
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        header #branding {
+            float: left;
+        }
+        header #branding h1 {
+            margin: 0;
+        }
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+        #showcase {
+            min-height: 400px;
+            background: url('dryer.jpg') no-repeat 0 -400px;
+            text-align: center;
+            color: #fff;
+        }
+        #showcase h1 {
+            margin-top: 100px;
+            font-size: 55px;
+            margin-bottom: 10px;
+        }
+        #showcase p {
+            font-size: 20px;
+        }
+        .button {
+            display: inline-block;
+            color: #333;
+            background: #f4f4f4;
+            padding: 10px 20px;
+            margin-top: 20px;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+        #main {
+            padding: 20px;
+            background: #fff;
+            margin-top: -20px;
+        }
+        .product {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .product img {
+            max-width: 100%;
+            margin-right: 20px;
+        }
+        .product-description {
+            max-width: 600px;
+        }
+        .product h2, .product h3 {
+            margin-top: 0;
+        }
+        .purchase-button {
+            background: #77aaff;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1><span class="highlight">Portable Electric Dryer</span></h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#specs">Specifications</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="showcase">
+        <div class="container">
+            <h1>Dry Clothes Quickly and Easily</h1>
+            <p>With the Portable Electric Dryer, you can dry clothes in a barrel or warm towels in your closet effortlessly.</p>
+        </div>
+    </section>
+
+    <section id="main">
+        <div class="container">
+            <div class="product">
+                <img src="dryer.jpg" alt="Portable Electric Dryer">
+                <div class="product-description">
+                    <h2>Portable Electric Dryer</h2>
+                    <p>The Portable Electric Dryer is designed to dry clothes quickly and efficiently. It features a hose that can be placed in a closet to dry clothes or warm towels. This versatile dryer is perfect for small apartments, dorm rooms, or travel.</p>
+                    <h3>Features:</h3>
+                    <ul>
+                        <li>Compact and lightweight design</li>
+                        <li>Easy to use and set up</li>
+                        <li>Hose for closet drying</li>
+                        <li>Energy efficient</li>
+                    </ul>
+                    <h3>Specifications:</h3>
+                    <ul>
+                        <li>Power: 800W</li>
+                        <li>Capacity: 5kg</li>
+                        <li>Dimensions: 12" x 12" x 18"</li>
+                        <li>Weight: 5 lbs</li>
+                    </ul>
+                    <a href="purchase.html" class="purchase-button">Buy Now for $99.99</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
